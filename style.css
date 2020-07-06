@@ -1,0 +1,159 @@
+
+html {
+  display: grid;
+  min-height: 100%;
+}
+
+body {
+  display: grid;
+  background: #2084CF;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 520px;
+  height: 750px;
+  background: #f5f5f5;
+  box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
+  border-radius: 10px;
+}
+
+p {
+  font-size: 0.6em;
+  color: #2084CF;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 1.2em;
+  color: #4e4e4e;
+  margin-top: -5px;
+}
+
+h2 {
+  color: #2084CF;
+  margin-top: -5px;
+}
+
+img {
+  width: 400px;
+  margin-top: 70px;
+  margin-left: 60px;
+}
+
+.slideshow-buttons {
+  top: 80%;
+  display: none;
+}
+
+.one,
+.two,
+.three,
+.four {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #e0c9cb;
+}
+
+.one {
+  left: 22%;
+}
+
+.two {
+  left: 27%;
+}
+
+.three {
+  left: 32%;
+}
+
+.four {
+  left: 37%;
+}
+
+.product {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 53%;
+  left: 15%;
+}
+
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: #4e4e4e;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  margin-right: 45px;
+  text-align: justify;
+}
+
+button {
+  background: #2084CF;
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+button:hover {
+  background: #FF5C20;
+  transition: all 0.4s ease-in-out;
+}
+
+.add {
+  width: 75%;
+}
+
+.like {
+  width: 15%;
+}
+
+.sizes {
+  display: grid;
+  color: #2084CF;
+  grid-template-columns: repeat(auto-fill, 30px);
+  width: 100%;
+  grid-gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.sizes:hover {
+  cursor: pointer;
+}
+
+.pick {
+  margin-top: 11px;
+  margin-bottom: 5px;
+}
+
+.size {
+  padding: 9px;
+  border: 1px solid #2084CF;
+  font-size: 0.7em;
+  text-align: center;
+}
+.size:hover {
+  color: #2084CF;
+  transition: all 0.4s ease-in-out;
+}
+
+.focus {
+  background: #2084CF;
+  color: #f5f5f5;
+  border-radius: 50px;
+
+}
